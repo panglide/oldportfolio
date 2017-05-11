@@ -1,0 +1,59 @@
+
+.text {
+    box-sizing: border-box;
+    color: #fff;
+    font-weight: bolder;
+    padding: 5px;
+    margin: 20px;
+}
+@keyframes fade-in {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.arrow {display: none;}
+
+@media only screen and min-width: 1200px) {
+#header {
+    height: 100%;
+    font-size:
+}
+.title {
+    animation-name: fade-in;
+    animation-duration: 5s;
+    font-size: 3em;
+}
+.tag-line {
+    animation-name: fade-in;
+    animation-duration: 5s;
+    font-size: 1.5em;
+}
+
+.arrow {
+    animation-name: fade-in;
+    animation-duration: 5s;
+    font-size: 4em;
+    color: #fff;
+    position: absolute;
+    bottom: 10px;
+    }
+}
+
+
+@media only screen and (max-width: 599px) {
+#logo {display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.screenshot-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.screenshot {
+max-width: 50%;   
+}
